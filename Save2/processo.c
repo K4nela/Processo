@@ -49,24 +49,3 @@ void lerArquivo(char *nomeArquivo, Processo lista[], int *qnt){
 }
 
 
-    //     if(sscanf(linha, "%d %s %s %d %d %d", 
-    //            &lista[*qnt].id, 
-    //            &lista[*qnt].numero, 
-    //            &lista[*qnt].data_ajuizamento, 
-    //            &lista[*qnt].id_classe, 
-    //            &lista[*qnt].id_assunto, 
-    //            &lista[*qnt].ano_eleicao) ==6 ){
-
-    //            printf("ID: %d\n", lista[*qnt].id);
-    //            printf("Numero: %s\n", lista[*qnt].numero);
-    //            printf("Data Ajuizamento: %s\n", lista[*qnt].data_ajuizamento);
-    //            printf("ID Classe: %d\n", lista[*qnt].id_classe);
-    //            printf("ID Assunto: %d\n", lista[*qnt].id_assunto);
-    //            printf("Ano Eleicao: %d\n", lista[*qnt].ano_eleicao);
-    //            printf("---------------------\n");
-    //     (*qnt)++;
-
-    // }else{
-    //     printf("Linha invalida: %s\n", linha);
-    //     return;
-    // }
