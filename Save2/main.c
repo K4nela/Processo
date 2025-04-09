@@ -2,10 +2,10 @@
 
 int main(){
     //chama a função para ler o arquivo
-    Processo lista[0]; // Ajusta esse tamanho conforme necessário  
-    int qnt = 0; // Inicializa qnt  
+    Processo lista[0];  
+    int qnt = 0; 
 
-    lerArquivo("Tabela.csv", lista, &qnt); // Passa o endereço de qnt
+    lerArquivo("Tabela.csv", lista, &qnt); //passa o endereço de qnt
 
 return 0;
 }
