@@ -1,0 +1,3 @@
+ta vendo?!
+
+gcc main.c processo.c -o programa
