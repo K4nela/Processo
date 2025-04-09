@@ -14,8 +14,8 @@ void criarProcesso(char *nomeArquivo, Processo processos[], int *qnt){
         return;
     }
 
-    char linha[200]; // Ajuste conforme necessário
     *qnt = 0;
+    char linha[200];
 
     fgets(linha, sizeof(linha), arquivo);
 
