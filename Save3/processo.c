@@ -45,6 +45,7 @@ void criarProcesso(char *nomeArquivo, Processo processos[], int *qnt){
         processos[*qnt].ano_eleicao);
 
     (*qnt)++;
+    
     }
 
 
